@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { users_tb } from '../models/users.model.ts';
+import { users_tb } from '../models/users.model';
 
 interface ErrorSample extends Error {
   message: string;

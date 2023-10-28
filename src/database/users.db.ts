@@ -1,5 +1,5 @@
 import { Sequelize } from 'sequelize-typescript';
-import {dbDatabase, dbHost, dbPassword, dbPort, dbUser} from '../config/dotenv.config.ts'
+import {dbDatabase, dbHost, dbPassword, dbPort, dbUser} from '../config/dotenv.config'
 
 export const sequelize = new Sequelize({
   dialect: 'postgres',

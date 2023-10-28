@@ -1,7 +1,7 @@
-import app from './app.ts'
-import { dbPort } from './config/dotenv.config.ts'
-import { sequelize } from './database/users.db.ts';
-import { users_tb } from './models/users.model.ts';
+import app from './app'
+import { dbPort } from './config/dotenv.config'
+import { sequelize } from './database/users.db';
+import { users_tb } from './models/users.model';
 
 
 const initiation = async function () {

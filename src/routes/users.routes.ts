@@ -2,7 +2,7 @@
 Es importante usar Router de express y definir sobre el las rutas usadas, luego se exporta como default */
 
 import { Router } from 'express'
-import { getUsers, getUser, createUser, deleteUser, updateUserInfo} from '../controllers/users.controllers.ts';
+import { getUsers, getUser, createUser, deleteUser, updateUserInfo} from '../controllers/users.controllers';
 
 const router = Router()
 // Read methods
