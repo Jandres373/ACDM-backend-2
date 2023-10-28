@@ -9,7 +9,7 @@ const initiation = async function () {
     sequelize.addModels([users_tb]); 
     await sequelize.sync()
     app.listen(dbPort)
-    console.log(`Connected`)
+    console.log(`Connected to port ${dbPort}`)
   } catch (error) {
     console.log(error)
   }

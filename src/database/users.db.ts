@@ -7,7 +7,7 @@ export const sequelize = new Sequelize({
   username: dbUser,
   password: dbPassword,
   host: dbHost,
-  port: Number(dbPort),
+  port: 5432,
   dialectOptions: {
     ssl: { require: true, rejectUnauthorized: false },
   },
