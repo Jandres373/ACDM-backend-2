@@ -1,15 +1,13 @@
 import { Sequelize } from 'sequelize-typescript';
 import {dbDatabase, dbHost, dbPassword, dbPort, dbUser} from '../config/dotenv.config.ts'
 
-export const PORT = parseInt(dbPort || '3000');
-
 export const sequelize = new Sequelize({
   dialect: 'postgres',
   database: dbDatabase,
   username: dbUser,
   password: dbPassword,
   host: dbHost,
-  port: PORT,
+  port: Number(dbPort),
   dialectOptions: {
     ssl: { require: true, rejectUnauthorized: false },
   },
