@@ -1,0 +1,30 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+
+# Dependency directories
+node_modules
+jspm_packages
+
+# Build output
+dist/
+build/
+out/
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Miscellaneous
+.DS_Store
+Thumbs.db

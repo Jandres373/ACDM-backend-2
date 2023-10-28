@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                            // Nivel de compatibilidad ECMAScript
+    "module": "CommonJS",                       // Sistema de módulos 
+    "outDir": "./dist",                         // Carpeta de salida para los archivos compilados
+    "rootDir": "./src",                         // Carpeta que contiene tus archivos TypeScript fuente
+    "strict": true,                             // Habilitar modo estricto
+    "esModuleInterop": true,                    // Habilitar interoperabilidad de módulos
+    "noEmit": true,                             // Agrega esta línea para habilitar 'allowImportingTsExtensions'
+    "allowImportingTsExtensions": true,         // Habilitar la importacion de archivos .ts
+    "experimentalDecorators": true,             // Decoradores sin argumentos
+    "baseUrl": "./src",                         // url base //! creo que esto es innecesario. 
+  },
+  "include": ["src/**/*.ts", "src/index.ts"],   // Patrón de inclusión de archivos fuente
+  "exclude": ["node_modules"]                   // Patrón de exclusión de archivos o carpetas
+}
