@@ -6,7 +6,6 @@
     "module": "CommonJS",
     "removeComments": true,
     "declaration": true
-    // Otras opciones de compilación específicas para producción
   },
   "exclude": [
     "test/**/*.ts",
