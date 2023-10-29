@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "target": "ES6",
+    "module": "CommonJS",
+    "removeComments": true,
+    "declaration": true
+    // Otras opciones de compilación específicas para producción
+  },
+  "exclude": [
+    "test/**/*.ts",
+    "docs/**/*.ts"
+  ]
+}
